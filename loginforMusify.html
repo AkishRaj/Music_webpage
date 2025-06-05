@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Musify-login</title>
+	<style>
+		form {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			margin-top: 50px;
+		}
+
+		input[type="text"], input[type="password"] {
+			padding: 10px;
+			margin-bottom: 20px;
+			border-radius: 15px;
+			border: 3px violet;
+			box-shadow: 1px 1px 3px rgba(0,0,0,0.3);
+			width: 300px;
+			max-width: 100%;
+			font-size: 18px;
+			font-family: sans-serif;
+		}
+
+		input[type="submit"] {
+			background-color: #007bff;
+			color: #eceaecbf;
+			padding: 5px 10px;
+			border: 3px violet;
+			border-radius: 8px;
+			cursor: pointer;
+			font-size: 14px;
+			font-family: 'Open Sans', sans-serif;
+		}
+
+		input[type="submit"]:hover {
+			background-color: #70b5ff;
+		}
+
+		h2 {
+			margin-bottom: 30px;
+			font-family: Georgia, serif;
+			text-align: center;
+			
+
+		}
+	</style>
+</head>
+<body style="background-color: rgb(0, 0, 0);">
+	<header>
+		<img height="200px" width="280px" src="Musify.png" alt="Musify">
+	</header>
+
+	<section>
+		<h2 style="color:#69ccd5;"font-family="Helvetica, sans-serif";>Login</h2>
+		<form>
+			<label for="username" style="color: #69ccd5;">Username:</label>
+			<input type="text" id="username" name="username" required>
+
+			<label for="password" style="color: #69ccd5;">Password:</label>
+			<input type="password" id="password" name="password" required>
+
+			<input type="submit" value="Log In">
+		</form>
+	</section>
+
+	<footer>
+		<p style="color: blueviolet;>&copy; 2023 Musify</p>
+	</footer>
+</body>
+</html>
